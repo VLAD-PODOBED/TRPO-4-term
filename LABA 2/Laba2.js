@@ -3,9 +3,9 @@ var Product = /** @class */ (function () {
     }
     return Product;
 }());
-var Boots = new Product();
-Boots.number = 12;
-Boots.size = 12;
-Boots.color = "red";
-Boots.price = "45";
-console.log("number:".concat(Boots.number));
+var shoes = new Product();
+shoes.number = 12;
+shoes.size = 12;
+shoes.color = "red";
+shoes.price = "45";
+console.log("number:".concat(shoes.number));
