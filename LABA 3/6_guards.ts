@@ -3,7 +3,6 @@ function strip(x: string | number) {
       return x.toFixed(2)
     }
     return x.trim()
-    
   }
   
   class MyResponse {

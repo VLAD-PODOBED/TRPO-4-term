@@ -16,7 +16,7 @@ function add(a: number, b: number): number {
   }
   
   function position(): MyPosition
-  function position(a: number): MyPositionWithDefault
+  function position(a: number): MyPosition
   function position(a: number, b: number): MyPosition
   
   function position(a?: number, b?: number) {

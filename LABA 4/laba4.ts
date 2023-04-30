@@ -6,7 +6,6 @@ const array: [id:number,name:string,group:number][] = [  //
     [ 4,  'Petya',  10],
     [ 5,  'Kira',  11]
 ]
-
 // task 2
 type CarsType = {manufacturer : string, model : string}; //
 let car: CarsType = {manufacturer:'manufacturer',model:'model'};
